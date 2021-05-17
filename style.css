@@ -1,3 +1,183 @@
-.body-background{
+.body-background {
     background-color: lightgray;
+}
+
+/* Header */
+.header-style {
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media(min-width:768px) {
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.div-border {
+    border: 5px lightgray solid;
+}
+
+.box-1 {
+    flex: 25%;
+    background-color: white;
+    padding: 0px 15px;
+}
+
+.box-2 {
+    flex: 75%;
+    background-color: white;
+    padding: 0px 24px;
+
+}
+
+.profile-img {
+    position: relative;
+    text-align: center;
+}
+
+.image-style {
+    padding-top: 10px;
+    width: 50%;
+    border-radius: 15%;
+}
+
+.theme-color {
+    color: #009688;
+}
+
+.grey-text {
+    color: #757575;
+}
+
+.progress-bar {
+    background-color: #f1f1f1;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.skill-style {
+    background-color: #009688;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font23 {
+    font-size: 23px;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.icon-padding {
+    margin-right: 16px;
+}
+
+.description-padding {
+    padding: 0px 16px;
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.opacity6 {
+    opacity: 0.6;
+}
+
+.year-style {
+    color: #fff;
+    background-color: #009688;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 4px 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hr-style {
+    border-top: 1px solid #eee;
+}
+
+.bio-para {
+    margin: 15px 0px;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    text-align: center;
+}
+
+.links:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }
