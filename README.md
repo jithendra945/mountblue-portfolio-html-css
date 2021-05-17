@@ -1,5 +1,9 @@
-# Portfolio HTML-CSS
+# Portfolio website using HTML and CSS
 
-My portfolio in plan HTML and CSS
+Click the link to see the website hosted on Heroku.
+https://jithendra-portfolio.herokuapp.com/
 
-run portfolio.html
+
+Or
+
+open portfolio.html file in browser to see the website.
